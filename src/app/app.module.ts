@@ -7,7 +7,7 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { AddProviderComponent } from './add-provider/add-provider.component';
 import { ListProviderComponent } from './list-provider/list-provider.component';
-import { UpdateProviderComponent } from './update-provider/update-provider.component';
+//import { UpdateProviderComponent } from './update-provider/update-provider.component';
 
 
 @NgModule({
@@ -16,7 +16,7 @@ import { UpdateProviderComponent } from './update-provider/update-provider.compo
     NavbarComponent,
     AddProviderComponent,
     ListProviderComponent,
-    UpdateProviderComponent
+  //  UpdateProviderComponent
   ],
   imports: [
     BrowserModule,
