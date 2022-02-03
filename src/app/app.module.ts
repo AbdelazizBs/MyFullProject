@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { AddProviderComponent } from './add-provider/add-provider.component';
 import { ListProviderComponent } from './list-provider/list-provider.component';
+import { UpdateProviderComponent } from './update-provider/update-provider.component';
 //import { UpdateProviderComponent } from './update-provider/update-provider.component';
 
 
@@ -16,6 +17,7 @@ import { ListProviderComponent } from './list-provider/list-provider.component';
     NavbarComponent,
     AddProviderComponent,
     ListProviderComponent,
+    UpdateProviderComponent,
   //  UpdateProviderComponent
   ],
   imports: [

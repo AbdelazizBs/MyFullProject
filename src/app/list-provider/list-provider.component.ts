@@ -9,13 +9,20 @@ import { Router } from '@angular/router';
 export class ListProviderComponent implements OnInit {
  providers: any;
  constructor(private service: ProviderService, private router: Router) { }
+
+
  ngOnInit() {
+
+
+  
  this.service.listProviders().subscribe(
  response => {
  this.providers = response;
  }
  );
 }
+
+
 deleteProvider(myObj : any) {
   //console.log(this.provider);
   this.service.deleteProvider(myObj).subscribe(response => {
@@ -23,6 +30,9 @@ deleteProvider(myObj : any) {
   this.refreshListProviders();
   })
   }
+
+
+
   refreshListProviders() {
   this.service.listProviders().subscribe(
   response => {
@@ -30,6 +40,8 @@ deleteProvider(myObj : any) {
   }
   );
   }
+
+
   updateProvider(myObj : any) {
   this.router.navigate(['updateProvider' + '/' + myObj['id']]);
   }
